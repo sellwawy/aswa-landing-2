@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <!-- SEO -->
+      <title>SocialEditor</title>
+      <meta name="description" content="Simple editor to create and publish social media posts" />
+
+      <!-- Fonts -->
+      <style>
+         @font-face {
+            font-family: 'Inter';
+            src: url('./assets/fonts/inter/Inter-VariableFont_slnt\,wght-subset.woff2') format('woff2');
+            font-weight: 100 900;
+            /* font-display: swap; */
+         }
+      </style>
+      <script type="module" src="main.js"></script>
+   </head>
+
+   <body class="app">
+      <!--  Header  -->
+      <header class="site-header">
+         <!-- Logo -->
+         <div class="site-logo">
+            <a href="/">
+               <img class="site-logo__img" src="./assets/img/logo-white.png" alt="Site logo" />
+            </a>
+
+            <!-- Navbar -->
+            <!-- <div class="wrapper flex items-center justify-between">
+               <a class="logo" href="/"> <img src="/assets/images/logo.svg" alt="logo" /> </a>
+               <nav>
+                  <ul role="list" class="site-nav flex" aria-label="Main">
+                     <li class="site-nav__li"><a href="#home" class="site-nav__a">Home</a></li>
+                     <li class="site-nav__li"><a href="#about" class="site-nav__a">About</a></li>
+                     <li class="site-nav__li"><a href="#resume" class="site-nav__a">Resume</a></li>
+                     <li class="site-nav__li"><a href="#portfolio" class="site-nav__a">Portfolio</a></li>
+                     <li class="site-nav__li"><a href="#blog" class="site-nav__a">Blog</a></li>
+                     <li class="site-nav__li"><a href="#contact" class="site-nav__a">Contact</a></li>
+                  </ul>
+               </nav>
+            </div> -->
+         </div>
+      </header>
+
+      <main>
+         <!-- Hero Section -->
+         <div class="homepage-hero">
+            <div class="u-container homepage-hero__con">
+               <h1 class="primary-heading">
+                  <span class="primary-heading__main">Outdoors</span>
+                  <span class="primary-heading__sub">is where life happens</span>
+               </h1>
+               <a href="javascript:;" class="btn btn--white btn--animated">Discover our tours </a>
+            </div>
+         </div>
+
+         <!-- About Section -->
+         <section class="about-section u-slice">
+            <div class="u-container">
+               <h2 class="secondary-heading">Exciting tours for adventurous people</h2>
+               <div class="about-section__con">
+                  <div>
+                     <h3 class="tertiary-heading">You're going to fall in love with nature</h3>
+                     <p class="paragraph">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente
+                        aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis
+                        earum qui.
+                     </p>
+                     <h3 class="tertiary-heading">Live adventures like you never have before</h3>
+                     <p class="paragraph">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente
+                        aspernatur libero repellat quis consequatur.
+                     </p>
+                     <a href="javascript:;" class="btn-text">Learn more &rarr;</a>
+                  </div>
+                  <div class="composition">
+                     <img
+                        src="assets/img/nat-1-large.jpg"
+                        alt="Photo 1"
+                        class="composition__photo composition__photo--p1" />
+                     <img
+                        src="assets/img/nat-2-large.jpg"
+                        alt="Photo 2"
+                        class="composition__photo composition__photo--p2" />
+                     <img
+                        src="assets/img/nat-3-large.jpg"
+                        alt="Photo 3"
+                        class="composition__photo composition__photo--p3" />
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!-- Features Section -->
+         <section class="features-section u-slice">
+            <div class="u-container features-section__con">
+               <div class="feature-box">
+                  <i class="feature-box__icon icon-basic-world"></i>
+                  <h3 class="heading-tertiary u-margin-bottom-small">Explore the world</h3>
+                  <p class="feature-box__text">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum et corporis atque
+                     quam quis iure adipisci quos nulla deleniti quisquam modi provident vel illo amet.
+                  </p>
+               </div>
+               <div class="feature-box">
+                  <i class="feature-box__icon icon-basic-compass"></i>
+                  <h3 class="heading-tertiary u-margin-bottom-small">Meet nature</h3>
+                  <p class="feature-box__text">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente
+                     aspernatur. Lorem ipsum.
+                  </p>
+               </div>
+
+               <div class="feature-box">
+                  <i class="feature-box__icon icon-basic-map"></i>
+                  <h3 class="heading-tertiary u-margin-bottom-small">Find your way</h3>
+                  <p class="feature-box__text">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente
+                     aspernatur.
+                  </p>
+               </div>
+               <div class="feature-box">
+                  <i class="feature-box__icon icon-basic-heart"></i>
+                  <h3 class="heading-tertiary u-margin-bottom-small">Live a healthier life</h3>
+                  <p class="feature-box__text">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente
+                     aspernatur.
+                  </p>
+               </div>
+            </div>
+         </section>
+      </main>
+   </body>
+</html>
