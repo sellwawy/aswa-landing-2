@@ -45,8 +45,8 @@ body {
       hsl(var(--color-primary-dark))
    );
    color: transparent;
-   text-align: center;
    background-clip: text;
+   text-align: center;
 
    letter-spacing: 0.125rem;
    transition-property: transform, text-shadow;
